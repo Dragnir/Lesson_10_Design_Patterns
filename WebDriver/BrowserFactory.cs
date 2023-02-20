@@ -4,7 +4,7 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Remote;
 using System;
 
-namespace Lesson_7_PageObject.WebDriver
+namespace Lesson_10_Design_Patterns.WebDriver
 {
     public class BrowserFactory
     {

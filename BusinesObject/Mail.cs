@@ -1,5 +1,5 @@
 ﻿
-namespace Lesson_9_TA_FrameWork.BusinesObject
+namespace Lesson_10_Design_Patterns.BusinesObject
 {
     public class Mail
     {

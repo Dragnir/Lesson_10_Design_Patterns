@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace Lesson_9_TA_FrameWork.Utils
+namespace Lesson_10_Design_Patterns.Utils
 {
     public class PasswordGenerator
     {

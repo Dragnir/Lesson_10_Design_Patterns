@@ -1,9 +1,9 @@
-﻿using Lesson_7_PageObject.PageObjects;
-using Lesson_9_TA_FrameWork.BusinesObject;
-using Lesson_9_TA_FrameWork.Utils;
+﻿using Lesson_10_Design_Patterns.PageObjects;
+using Lesson_10_Design_Patterns.BusinesObject;
 using NUnit.Framework;
+using Lesson_10_Design_Patterns.Utils;
 
-namespace Lesson_7_PageObject.Tests
+namespace Lesson_10_Design_Patterns.Tests
 {
     public class MailTests : BaseTest
     {

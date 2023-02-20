@@ -1,12 +1,13 @@
-﻿using Lesson_7_PageObject.WebDriver;
+﻿using Lesson_10_Design_Patterns.WebDriver;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.ObjectModel;
 using System.Drawing;
+using Lesson_10_Design_Patterns.Utils;
 
-namespace Lesson_7_PageObject.PageObjects
+namespace Lesson_10_Design_Patterns.PageObjects
 {
     public class BaseElement : IWebElement
     {
@@ -34,7 +35,15 @@ namespace Lesson_7_PageObject.PageObjects
 
         public IWebElement GetWebElement()
         {
-            return element = Browser.GetDriver().FindElement(locator);
+            try
+            {
+                element = Browser.GetDriver().FindElement(locator);
+            }
+            catch(Exception ex)
+            {
+                ExceptionHandler.Instance.WriteExceptionLog(ex);
+            }
+            return element;
         }
 
         public void WaitForIsVisible()

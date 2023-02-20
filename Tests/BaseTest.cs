@@ -1,12 +1,7 @@
-﻿using Lesson_7_PageObject.WebDriver;
+﻿using Lesson_10_Design_Patterns.WebDriver;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Lesson_7_PageObject.Tests
+namespace Lesson_10_Design_Patterns.Tests
 {
     public class BaseTest
     {

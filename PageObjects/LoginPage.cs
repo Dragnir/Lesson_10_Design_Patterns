@@ -1,7 +1,7 @@
-﻿using Lesson_9_TA_FrameWork.BusinesObject;
+﻿using Lesson_10_Design_Patterns.BusinesObject;
 using OpenQA.Selenium;
 
-namespace Lesson_7_PageObject.PageObjects
+namespace Lesson_10_Design_Patterns.PageObjects
 {
     public class LoginPage : BasePage
     {
